@@ -1,8 +1,7 @@
 # IRP: Hand Tracking and Servo Control with Python, OpenCV, Mediapipe, and Arduino
 ## Overview
 Python scripts developed for Individual Research Project: Year 3 Uni of Bristol
-Scripts utilise Mediapipe hand tracking 
-
+(images in folder)
 This project combines computer vision-based hand tracking with Arduino-controlled servo motors to create an interactive system. Using the OpenCV and Mediapipe libraries, the system detects hand landmarks from a webcam feed, computes distances between hand features, and maps these to an array of virtual grid cells. If hand movements are detected within a certain threshold of a grid cell, the corresponding servo motor is activated via an Arduino. This repository has several iterations of the prototype's system and a heatmap script which displays the accuracy of the hand depiction from the script.
 
 ## Features:
